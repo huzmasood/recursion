@@ -92,6 +92,7 @@ def lcm(x, y, i=1):
 def prime(n, i=2):
     if type(n) != int:
         raise TypeError("n must be an int")
+    #function will throw error if value is too large
     if n > 1998:
         raise ValueError("n must be lesser than 1999")
     if n == 2:
