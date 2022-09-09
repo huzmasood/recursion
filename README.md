@@ -1,1 +1,1 @@
-Some Python recursive functions.
+Some recursive functions.
